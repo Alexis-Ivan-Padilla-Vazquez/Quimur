@@ -1,0 +1,1 @@
+<footer class="footer">Sibei Framework V3.0 <span><?=Date("Y")?></span>.</footer>

@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^quienes-somos/{0,1}$ about.php [QSA,L]
+RewriteRule ^mision-vision-valores/{0,1}$ mision.php [QSA,L]
+
+#RewriteRule ^([\d]+)/blogs/(.*)/{0,1}$ blog.php?cat=$1 [QSA,L]
+#RewriteRule ^([\d]+)/blog/(.*)/$ blog.php?id=$1&cmd=view  [QSA,L]
+#RewriteRule ^tienda/$ producto.php  [QSA,L]
+#RewriteRule ^([\d]+)/productos/(.*)/{0,1}$ producto.php?cat=$1 [QSA,L]
+#RewriteRule ^([\d]+)/producto/(.*)/$ producto.php?id=$1&cmd=view  [QSA,L]
+#RewriteRule ^videogaleria/$ video.php  [QSA,L]
+#RewriteRule ^nosotros/{0,1}$ nostros.php [QSA,L]
+#RewriteRule ^contactanos/{0,1}$ contacto.php [QSA,L]
+
+ErrorDocument 404 /404.php
